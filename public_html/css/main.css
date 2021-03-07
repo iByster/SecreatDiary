@@ -1,0 +1,85 @@
+@font-face {
+    font-family: logo;
+    src: url("../fonts/Creamy_Sunset.ttf");
+}
+
+@font-face {
+    font-family: roboto-thin;
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+
+
+body {
+    
+    background-color: rgb(252, 208, 151);
+}
+
+.logo-font {
+    margin: 0 0 0 10px;
+    font-family: logo;
+    font-size: 60px;
+    color: rgb(255, 171, 60);
+}
+
+.general-form {
+    margin-top: 40px;
+    background-color: rgb(255, 199, 125);
+    padding: 30px 70px;
+    width: 550px;
+    border-radius: 20px;
+}
+
+ 
+
+
+ 
+@media (max-width: 553px) { 
+    .general-form {
+        width: 100%;
+    }
+
+
+    #last-form-row {
+        width: 365px !important;
+    }
+    
+}
+
+#info-log-in {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:rgb(255, 171, 60);
+
+}
+
+.center-buttons {
+    width: 75px;
+    margin: 0 auto;
+}
+
+#sign-in {
+    display: none;
+}
+
+.float-clear {
+    clear: both;
+}
+
+#forgot-pass {
+    
+    font-size: small;
+    color: black;
+}
+
+#pass-reset {
+    padding-right: 0 !important;
+}
+
+#last-form-row {
+    width: 405px;
+    padding-left: 0;
+    margin: 0 !important;
+    padding-right: 0;
+}
+
+
